@@ -1,0 +1,181 @@
+<mxfile host="app.diagrams.net" modified="2023-10-20T09:22:57.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.967 YaBrowser/23.9.1.967 Yowser/2.5 Safari/537.36" etag="tlDD2HM_DS-zMHPf3Q30" version="22.0.5" type="device">
+  <diagram name="Страница — 1" id="O2RAl2Ow5lcf_SMwTOhs">
+    <mxGraphModel dx="3067" dy="2218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-50" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Связь с модулем РАсчеты предполагаемая" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="800" y="460" width="335" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-49" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-120" width="560" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-35" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;1. Таблица должна содержать данные по проектам и по итоговых строкам&lt;br&gt;2. В таблицу попадают данные по всем компаниям&lt;br&gt;3. Завести отдельную таблицу с наименованием параметров (Справочник)" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="390" y="70" width="310" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-32" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;1. Нужно написать скрипт, который из папок на яндекс диске определяет паспорта, архивирует их в отдельный архив .zip. &lt;br&gt;2. Наименовать файлы с архивом паспорта в виде: Идентификатор проекта (с использованием транслитерации), при этом заменить все спецсимволы на &quot;_&quot;.&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. Проверять файлы на дубликаты наименования, если есть дубликат добавляем в конец &quot;_1&quot;&amp;nbsp;&lt;br&gt;4. Записывает в таблицу проект БД Гипро&amp;nbsp; в поле &quot;passport&quot; - имя файла.&lt;br&gt;5. Переместит все файлы по компаниям в одну папку" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="30" y="785" width="315" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-27" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;1. Извлекает все параметры по проектам&lt;br&gt;2. Нужно включить в импорт итоговые строки по группам для 0 строк и строк 1,2,3,4,5,6,7,8,9" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="210" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-13" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Таблицу изменять не нужно, но нужно установить приоритет использования регионов проектов из данных формы 2" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="415" y="460" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-10" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;В существующих таблицах добавить столбцы с разбивкой финансирования на группы" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="820" y="-40" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-8" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;1. Данные таблицы нужно создать, должны содержать все столбцы из формы 2" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="820" y="220" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-1" value="Формы № 2 из папки на ЯД" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-2" value="Формы № 20 из папки на ЯД" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-3" value="Паспорта из папки на ЯД" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-4" value="Таблица с итоговыми строками" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="850" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-5" value="Таблица с финансированием итоговых строк" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="850" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-6" value="Таблица с данными по проектам" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-7" value="Таблица с финансированием по проектам" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-12" value="Таблица с данными унцов по проектам" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-14" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;1. Фронт - задачу на изменение принцип формирование ссылки на скачивание паспорта&lt;br&gt;2 Добавить столбец в БД" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="415" y="785" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-15" value="Таблица prpject" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="460" y="805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-16" value="Скрипт Димы" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.283;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HMwePQK9_PrnhCYV4JY7-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="925" as="sourcePoint" />
+            <mxPoint x="28.5300000000002" y="844.4299999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.372;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HMwePQK9_PrnhCYV4JY7-32" target="HMwePQK9_PrnhCYV4JY7-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="845" as="sourcePoint" />
+            <mxPoint x="410" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-20" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;1. Алгоритм импорта форм 20 не планируем изменять&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="460" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-21" value="Текущий алгоритм импорта формы 20" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.283;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-69" y="575.5" as="sourcePoint" />
+            <mxPoint x="20" y="574.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.283;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HMwePQK9_PrnhCYV4JY7-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="565.5" as="sourcePoint" />
+            <mxPoint x="419" y="564.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-26" value="Скрипт Димы" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HMwePQK9_PrnhCYV4JY7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="300" as="sourcePoint" />
+            <mxPoint x="-50" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-30" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;1. Переносим архивы с паспортами на сервер" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1010" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-31" value="Папка на прод сервере" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="458" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-34" value="Таблица со структурой формы 2." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="165" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-36" value="Таблица со наименованием полей из формы 2. и название поля из второй таблицы" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HMwePQK9_PrnhCYV4JY7-26" target="HMwePQK9_PrnhCYV4JY7-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="270" as="sourcePoint" />
+            <mxPoint x="225" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HMwePQK9_PrnhCYV4JY7-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="185" as="sourcePoint" />
+            <mxPoint x="970" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.997;exitY=0.396;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="HMwePQK9_PrnhCYV4JY7-34" target="HMwePQK9_PrnhCYV4JY7-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="195" as="sourcePoint" />
+            <mxPoint x="860" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HMwePQK9_PrnhCYV4JY7-34" target="HMwePQK9_PrnhCYV4JY7-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="207" as="sourcePoint" />
+            <mxPoint x="860" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.625;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="HMwePQK9_PrnhCYV4JY7-34" target="HMwePQK9_PrnhCYV4JY7-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="215" as="sourcePoint" />
+            <mxPoint x="860" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-43" value="Второй уровень" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="18" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-44" value="Первый уровень" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="135" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-45" value="Третий уровень (Поиск)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-90" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="HMwePQK9_PrnhCYV4JY7-34" target="HMwePQK9_PrnhCYV4JY7-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="320" as="sourcePoint" />
+            <mxPoint x="840" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-47" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="820" y="480" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-48" value="Таблица с данными модуля Расчеты" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="865" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-51" value="Адаптер. Импорт данных - нужна задача" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-190" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-52" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="162.5" width="585" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HMwePQK9_PrnhCYV4JY7-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.012;exitY=0.289;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="HMwePQK9_PrnhCYV4JY7-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="1041" as="sourcePoint" />
+            <mxPoint x="517" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
